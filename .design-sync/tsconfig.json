@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["../src/*"],
+      "@/registry": ["../registry.json"],
+      "next/link": ["./mocks/next-link"],
+      "next/image": ["./mocks/next-image"],
+      "next/navigation": ["./mocks/next-navigation"]
+    }
+  }
+}
